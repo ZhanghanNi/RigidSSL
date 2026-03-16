@@ -1,0 +1,30 @@
+name: RigidSSL
+channels:
+  - pytorch
+  - pyg
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pytorch=2.2.0
+  - pytorch-cuda=12.1
+  - pytorch-cluster
+  - pytorch-scatter
+  - pytorch-sparse
+  - pyg
+  - numpy
+  - scipy
+  - scikit-learn
+  - pandas
+  - tqdm
+  - h5py
+  - pyyaml
+  - pip
+  - pip:
+      - atom3d
+      - biopython
+      - mdtraj
+      - ml-collections
+      - dm-tree
+      - einops
